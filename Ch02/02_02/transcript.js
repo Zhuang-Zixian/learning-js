@@ -13,7 +13,7 @@
 
 "This is Joe's favorite string";
 "This is Joe's \"favorite\" string";
-"This is Joe's "favorite" string"; // this line will not work
+"This is Joe's \"favorite\" string"; // this line will not work without \ as the escape character
 
 "This is \
 Joe's Favorite \
