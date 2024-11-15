@@ -29,9 +29,10 @@ animal2 = {
 };
 
 // bonus: make a copy of an object safely
-animal2 = Object.assign({}, animal);
-animal2 = { ...animal };
-animal2 = JSON.parse(JSON.stringify(animal));
+animal2 = Object.assign({}, animal); // both lines do the same thing
+animal2 = { ...animal }; // the three dots are called the spread operator
+// means spread out all the data in this object into a new copy
+animal2 = JSON.parse(JSON.stringify(animal)); // uses built in json object
 
 animal2.genus = "ursus";
 animal2;
